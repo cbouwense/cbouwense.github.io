@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christian Bouwense</title>
+    <link rel="stylesheet" href="../../node_modules/bulma/css/bulma.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  </head>
+  <body>
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+
+          <h1 class="title is-1 has-text-centered">
+            Christian Bouwense
+          </h1>
+
+          <nav class="level">
+            <p class="level-item has-text-centered">
+              <a class="navbar-item" href="#about-me">About Me</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item" href="#professional">Professional</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <img src="../img/me.jpg" alt="headshot" style="height: 300px; border-radius: 150px">
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item" href="#hobbies">Hobbies</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item" href="#contact-me">Contact Me</a>
+            </p>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about-me">
+      <div class="container">
+        <h1 class="title">About Me</h1>
+        <p>
+          I'm a software developer, video game creator, and lifelong explorer! My ultimate passion in life is learning new things, and challenging myself with new opportunities. From computer programming to amateur bodybuilding, testing the limits of my knowledge and dedication is what drives me in life! 
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="professional">
+
+      <div class="container">
+        <h1 class="title">Professional</h1>
+
+        <nav class="level">
+          <p class="level-item has-text-centered profession-link">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+              <a class="link is-info">Resume</a>
+            </span>
+          </p>
+          <p class="level-item has-text-centered profession-link">
+            <span class="icon has-text-info">
+              <i class="fab fa-linkedin"></i>
+              <a class="link is-info" href="https://linkedin.com/in/christian-bouwense">LinkedIn</a>
+            </span>
+          </p>
+          <p class="level-item has-text-centered profession-link">
+            <span class="icon has-text">
+              <i class="fab fa-github"></i>
+              <a class="link is-info" href="https://github.com/cbouwense">Github</a>
+            </span>
+          </p>
+        </nav>
+
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+
+            <article class="tile is-child notification is-info">
+              <div class="content">
+                <p class="title"><a href="https://www.jpmorgan.com">JP Morgan Chase & Co.</a></p>
+                <p class="subtitle is-4">Full Stack Web Development</p>
+                <div class="content">
+                  <p>
+                    I interned at JP Morgan Chase & Co. during the summer of 2018. While there, I made a really cool Python script for my team to easily delete build artifacts from their complex continuous integration pipeline. Senior devs liked it so much they asked me to expand it to be a web application so every developer in our line of business could use it! I used Flask as my server-side engine, and Jinja2 as my templating engine.
+                  </p>
+                  <p>
+                    I deployed my web application to the internal cloud infrastructure, which was based on Cloud Foundry technology. I also hooked in a logging microservice with the help of Splunk, so we could keep track of how many times my application was used (spoiler, it was a lot!).
+                  </p>
+                  <!-- TODO tiles of tech used/learned -->
+
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger">
+              <div class="content">
+                <p class="title"><a href="https://www.harris.com">Harris Corporation</a></p>
+                <p class="subtitle is-4">DevOps and Automation</p>
+                <div class="content">
+                  <p>I interned at Harris Corporation during the summers of 2016 and 2017. My first summer's task was automatically generating hundreds of pages of government documentation. I used Python as the base of my script, SQL to query databases for relevant information, and <a href="https://sourceforge.net/projects/pywin32/">pywin32</a> to format everything in Microsoft Word.</p>
+                  <br />
+                  <p>My returning summer, I was tasked with creating and configuring Jenkins pipelines for the GPSIII flight and test code. I accomplished this by developing some Batch scripts which Jenkins would run every night to pull code from source, and do the complex setup to build. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>    
+
+    <section class="section" id="hobbies">
+      <div class="container">
+        <h1 class="title">Hobbies</h1>
+        
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article class="tile is-child notification box">
+                <div class="content">
+                  <p class="title">Bodybuilding</p>
+                  <div class="content">
+                    <p>
+                      Pushing the limits of my mind and body is what drives me, and bodybuilding is the ultimate combination of the two. I started my journey in January of 2017, and have been dedicated ever since. This personal pursuit has taught me the merit of discipline, and the satisfaction of hard work.
+                    </p>
+                    <span>
+                      <figure class="image">
+                        <img src="../img/pose1.jpg" style="border-radius: 50%; size: 50%">
+                      </figure>
+                    </span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="tile is-parent">
+              <article class="tile is-child notification box">
+                <div class="content">
+                  <p class="title">Indie Game Development</p>
+                  <div class="content">
+                    <p>
+                      Playing video games have always been one of my favorite pasttimes, so I thought "why not make my own?" I have been a participating member of the <a href="https://sgdc.ml">Stevens Game Developement Club</a> for three years now, competing in all of their "Game Jam" competitions while a member. A game jam is short period of time in which to make a game; it could last for a few months, a week, or only 48 hours!
+                    </p>
+                    <p>
+                      I have recieved critical acclaim for my games, including three 1st place awards, and four "top 3" placings: more than any club member during my activity! I hope to further my passion for game development to a wider audience, by publishing my games for mass consumption. A fellow game developer and I are creating <a href="http://tightknitgames.com">Tight Knit Games</a>, a website to distribute the games we have made thus far, and games to come! (It is currently under construction, so it has little functionality).
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="contact-me">
+      <div class="container">
+        <h1 class="title">Contact Me</h1>
+        <p class="subtitle">Questions? Employment Opportunities? Funny Memes? Let me know!</p>
+        <p class="profession-link">Email: bouwensec@gmail.com</p>
+      </div>
+    </section>
+
+  </body>
+</html>
